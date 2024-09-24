@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+  }
+  
+  /* Header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .header-content {
+    max-width: 50%;
+  }
+  
+  .header-img img {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+  
+  /* About Section */
+  #about {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  #about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  #about ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #about li {
+    display: inline-block;
+    background-color: #e4e4e4;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Portfolio Section */
+  #portfolio {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  #portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+  
+  .projects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .project {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 30%;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .project img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .project h3 {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .social-links {
+    margin-bottom: 20px;
+  }
+  
+  .social-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+  
+  .social-links a:hover {
+    color: #ff6347;
+  }
+  
